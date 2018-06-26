@@ -1,0 +1,88 @@
+<html>
+<head>
+	<script src="jquery.js"></script>
+	<style>
+		@keyframes spin {
+			from {width:0px;
+				height:0px;}
+			to {width:50px;
+				height:50px;}
+		}
+		@keyframes csspin {
+			from {width:50px;
+				height:50px;}
+			to {width:0px;
+				height:0px;}
+		}
+		#spinner {
+			animation: spin 1s infinite;
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+			border-radius:50%;
+			height:50px;
+			width:50px;
+			opacity:0.5;
+			background-color:#F48979;
+		}
+		#csspinner {
+			animation: csspin 1s infinite;
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+			border-radius:50%;
+			height:50px;
+			width:50px;
+			opacity:0.5;
+			background-color:#F48979;
+		}
+
+		#quadrato {
+	width:30px;
+	height:30px;
+	background-color:#F48979;
+	position:absolute;
+}
+
+#quadrato.left {
+	transition:1s all;
+	top:30vh;
+	left:30vw;
+}
+
+#quadrato.right {
+	transition:1s all;
+	top:30vh;
+	left:60vw;
+}
+	</style>
+</head>
+<body bgcolor="#142529">
+	<div id="spinner"></div>
+	<div id="csspinner"></div>
+	<div id="quadrato" class="right"></div>
+	<script type="text/javascript">
+		function sposta_a_destra() {
+	$("#quadrato").removeClass("left");
+	$("#quadrato").addClass("right");
+}
+
+function sposta_a_sinistra() {
+	$("#quadrato").removeClass("right");
+	$("#quadrato").addClass("left");
+}
+
+function quando_clicki() {
+	if($("#quadrato").hasClass("left")) {
+		sposta_a_destra();
+	} else {
+		sposta_a_sinistra();
+	}
+}
+
+$("#quadrato").on("click", quando_clicki);
+	</script>
+</body>
+</html>

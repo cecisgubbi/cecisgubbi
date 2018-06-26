@@ -1,0 +1,331 @@
+h1 {
+	font-size: 170px;
+	font-family:Didot,serif;
+	margin: 0px;
+}
+
+h2 {
+	font-family:Bely Display, serif;
+}
+
+p {
+	color: #BCCBD5;
+	font-family: Didot, serif;
+	font-size: 20px;
+	margin-left: 560px;
+	width: 490px;
+}
+
+h3:hover {
+	color: #BCCBD5;
+
+}
+
+# {
+	position: absolute;
+	left: 1080px;
+	top: 960px;
+}
+
+#baby {
+	top: 900px;
+	height: 200px; width: auto;
+	position: absolute;
+	left: 1150px;
+}
+
+#over {
+	background-color: #142529;
+	top: 900px;
+	height: 200px; width: 200px;
+	position: absolute;
+	left: 1150px;
+}
+
+#over:hover {
+	transition: 1s;
+	opacity: 0;
+}
+
+#mount {
+	top: 1720px;
+	height: 200px; width: auto;
+	position: absolute;
+	left: 1150px;
+}
+
+#over1 {
+	background-color: #142529;
+	top: 1720px;
+	height: 200px; width: 300px;
+	position: absolute;
+	left: 1150px;
+}
+
+#over1:hover {
+	transition: 1s;
+	opacity: 0;
+}
+
+#mare {
+	top: 1500px;
+	height: 200px; width: auto;
+	position: absolute;
+	left: 1150px;
+}
+
+#over2 {
+	background-color: #142529;
+	top: 1500px;
+	height: 200px; width: 350px;
+	position: absolute;
+	left: 1150px;
+}
+
+#over2:hover {
+	transition: 1s;
+	opacity: 0;
+}
+
+#run {
+	top: 1930px;
+	height: 200px; width: auto;
+	position: absolute;
+	left: 1150px;
+}
+
+#over3 {
+	background-color: #142529;
+	top: 1930px;
+	height: 200px; width: 350px;
+	position: absolute;
+	left: 1150px;
+}
+
+#over3:hover {
+	transition: 1s;
+	opacity: 0;
+}
+
+#climb {
+	top: 2140px;
+	height: 200px; width: auto;
+	position: absolute;
+	left: 1150px;
+}
+
+#over4 {
+	background-color: #142529;
+	top: 2140px;
+	height: 200px; width: 350px;
+	position: absolute;
+	left: 1150px;
+}
+
+#over4:hover {
+	transition: 1s;
+	opacity: 0;
+}
+
+#go1 {
+	position: absolute;
+	left: 1100px;
+	top:960px;
+}
+
+#go2 {
+	position: absolute;
+	left: 1100px;
+	top:1760px;
+}
+
+#go3 {
+	position: absolute;
+	left: 1100px;
+	top:1660px;
+}
+
+#go4 {
+	position: absolute;
+	left: 1100px;
+	top:2040px;
+}
+
+#go5 {
+	position: absolute;
+	left: 1100px;
+	top:2240px;
+}
+
+.intro {
+	margin-top: 300px;
+}
+
+.alto {
+	position:absolute;
+	top: 10vh;
+	color: #142529;
+	font-size: 30px;
+	transform: translate(-30%,-30%);
+}
+
+.foto {
+	position:absolute;
+	left:50vw;
+	font-family:Bely Display, serif;
+}
+
+.progetti {
+	position:absolute;
+	left:65vw;
+	font-family:Bely Display, serif;
+}
+
+.contatti {
+	position:absolute;
+	left:80vw;
+	font-family:Bely Display, serif;
+}
+
+.due {
+	position:absolute;
+	left: 700px;
+	font-size: 45px;
+	color: #F48979;
+	transform: translate(-50%,-50%);
+}
+
+.uno {
+	position:absolute;
+	left: 900px;
+	transform: translate(20%,20%);
+}
+
+.orizz {
+	position: absolute;
+	top:2460px;
+}
+
+.vert {
+	position:absolute;
+	top:2610px;
+}
+
+.contacts {
+	color: #68A1AE;
+	position: absolute;
+	top: 2810px; left: 500px;
+}
+
+.insta {
+	color: #BCCBD5;
+	position: absolute;
+	top: 2800px;
+	left: 800px;
+	font-family:Didot,serif;
+}
+
+.face {
+	color: #BCCBD5;
+	position: absolute;
+	top: 2830px;
+	left: 800px;
+	font-family:Didot,serif;
+}
+
+.mail {
+	color: #BCCBD5;
+	position: absolute;
+	top: 2860px;
+	left: 800px;
+	font-family:Didot,serif;
+	margin-bottom: 100px;
+}
+
+.mail1 {
+	color: #BCCBD5; 
+	position: absolute;
+	top: 2860px;
+	left: 950px;
+	font-family:Didot,serif;
+}
+
+#profilo {
+	height: 320px; width: 320px;
+	border-radius: 50%;
+	position: absolute;
+	left: 125px;
+	transform: rotate(5deg);
+}
+
+#Ce {
+	position: absolute;
+	left: 100px;
+	color: #BCCBD5;
+	margin-top: -300px;
+}
+
+#Ci {
+	position: absolute;
+	top:110px; left:100px;
+	color: #142529;
+}
+
+#cerchio1 {
+	background-color: #68A1AE;
+	border-radius: 50%;
+	position: absolute;
+	top:0%; left:165px; right:0%; bottom:0%;
+	height: 320px; width: 320px;
+	transform: translate(-50%,-50%);
+	top:180px; left:200px;
+}
+
+#cerchio2 {
+	background-color: #142529;
+	border-radius: 50%;
+	position: absolute;
+	top:0%; left:165px; right:0%; bottom:0%;
+	height: 340px; width: 340px;
+	transform: translate(-50%,-50%);
+	top:180px; left:200px;
+}
+
+#cerchio3 {
+	background-color: #68A1AE;
+	border-radius: 50%;
+	position: absolute;
+	top:180px; left:200px; right:0%; bottom:0%;
+	height: 350px; width: 350px;
+	transform: translate(-50%,-50%);
+}
+
+#square1 {
+	background-color: #68A1AE;
+	position: absolute;
+	top:0%; left:165px; right:0%; bottom:0%;
+	height: 210px; width: 100%;
+}
+
+#square2 {
+	background-color: #142529;
+	position: absolute;
+	top:0%; left:155px; right:0%; bottom:0%;
+	height: 220px; width: 100%;
+}
+
+#square3 {
+	background-color: #68A1AE;
+	position: absolute;
+	top:0%; left:150px; right:0%; bottom:0%;
+	height: 225px; width: 100%;
+}
+
+
+
+
+#142529 sfondo
+#F48979 rosa scuro
+#F6DBDD rosa chiaro
+#68A1AE azzurro scuro
+#BCCBD5 azzurro chiaro
