@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-	font-family:Bely Display, serif;
+	font-family:Playfair Display Black, serif;
 }
 
 p {
@@ -172,19 +172,19 @@ h3:hover {
 .foto {
 	position:absolute;
 	left:50vw;
-	font-family:Bely Display, serif;
+	font-family:Playfair Display Black, serif;
 }
 
 .progetti {
 	position:absolute;
 	left:65vw;
-	font-family:Bely Display, serif;
+	font-family:Playfair Display Black, serif;
 }
 
 .contatti {
 	position:absolute;
 	left:80vw;
-	font-family:Bely Display, serif;
+	font-family:Playfair Display Black, serif;
 }
 
 .due {
